@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@import url("reset.css");
+html {}
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, 微軟正黑體, sans-serif;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, 微軟正黑體, sans-serif;
+    background-color: #ffe6f8;
+}
+
+
+/*-----------------------------------  */
+
+.contenter {
+    width: 100%;
+    width: 1000px;
+    display: block;
+}
+
+.content {
+    display: block;
+    width: 360px;
+    height: 420px;
+    padding: 24px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    margin: 36px auto;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.title {
+    font-size: 24px;
+    margin: 12px auto 26px auto;
+    font-weight: 600;
+    color: #545454;
+}
+
+.list {
+    width: 46%;
+    list-style-type: none;
+    margin: 16px auto;
+    list-style-image: url('../images/icon-link.png');
+}
+
+.list li {
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.list a {
+    text-decoration: none;
+    font-size: 17px;
+    /*word-spacing: 0.em;*/
+    color: #666666;
+}
+
+.line {
+    width: 100%;
+    border: 0;
+    height: 2px;
+    background-color: #CCCCCC;
+    margin: 16px 0 36px 0;
+}
